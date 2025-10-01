@@ -42,3 +42,6 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+### What I Changed (Michael Carrillo)
+I've added two more lines which allowed the counter to increase and be displayed inside the HTML and the console.log. Also got rid of // deno-lint-ignore prefer-const since it was preventing me from pushing my changes. Counter should increase per click and the info will be displayed.
